@@ -83,9 +83,6 @@ export default class App extends Component{
           </thead>
           <tbody>{this.todoTableRows()}</tbody>
         </table>
-        <button className = "btn btn-primary m-2" onClick ={this.changeStateData}>
-          Change Name
-        </button>
       </div>
     );
   }
